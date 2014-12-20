@@ -1,0 +1,153 @@
+# This is the template file for creating symbols with tragesym.py
+# every line starting with '#' is a comment line.
+ 
+[options]
+# rotate_labels rotates the pintext of top and bottom pins
+# wordswap swaps labels if the pin is on the right side an looks like this:
+# "PB1 (CLK)"
+wordswap=yes
+rotate_labels=no
+sort_labels=no
+generate_pinseq=yes
+sym_width=3000
+pinwidthvertikal=1400
+pinwidthhorizontal=400
+ 
+[geda_attr]
+# name will be printed in the top of the symbol
+# if you have a device with slots, you'll have to use slot= and slotdef=
+# use comment= if there are special information you want to add
+version=20130317
+name=AD9776
+device=AD9776BSVZ
+refdes=U?
+footprint=TQFP100_16
+description=Dual 12-BIT, 1 GSPS DAC
+documentation=http://www.analog.com/en/digital-to-analog-converters/da-converters/ad9776/products/product.html
+author=Evgeny Ivanov
+dist-license=GPL
+use-license=unlimited
+numslots=0
+#slot=1
+#slotdef=1:
+#slotdef=2:
+#slotdef=3:
+#slotdef=4:
+comment=generated with tragesym
+#comment=
+#comment=
+ 
+[pins]
+# tabseparated list of pin descriptions
+# pinnr is the physical number of the pin
+# seq is the pinseq= attribute, leave it blank if it doesn't matter
+# type can be (in, out, i/o, oc, oe, pas, tp, tri, clk, pwr)
+# style can be (line,dot,clk,dotclk,none). none if only want to add a net
+# posit. can be (l,r,t,b) or empty for nets
+# net specifies the name of the Vcc or GND name
+# label represents the pinlabel.
+#       negation lines can be added with _Q_
+#       if you want to add a "_" or "\" use \_ and \\ as escape sequences
+#-----------------------------------------------------
+#pinnr  seq     type    style   posit.  net     label
+#-----------------------------------------------------
+17		in	line	l		P1D11
+18		in	line	l		P1D10
+19		in	line	l		P1D9
+20		in	line	l		P1D8
+21		in	line	l		P1D7
+24		in	line	l		P1D6
+25		in	line	l		P1D5
+26		in	line	l		P1D4
+27		in	line	l		P1D3
+28		in	line	l		P1D2
+29		in	line	l		P1D1
+30		in	line	l		P1D0
+40		in	line	l		P2D11
+41		in	line	l		P2D10
+42		in	line	l		P2D9
+45		in	line	l		P2D8
+46		in	line	l		P2D7
+47		in	line	l		P2D6
+48		in	line	l		P2D5
+49		in	line	l		P2D4
+50		in	line	l		P2D3
+51		in	line	l		P2D2
+52		in	line	l		P2D1
+55		in	line	l		P2D0
+5		clk	line	l		REFCLK+
+6		clk	line	l		REFCLK−
+13		in	line	l		SYNC_I+
+14		in	line	l		SYNC_I−
+63		in	line	l		SYNC_O+
+62		in	line	l		SYNC_O−
+37		clk	line	l		DATACLK
+39		in	line	l		TXENABLE/IQSELECT
+65		out	line	l		PLL_LOCK
+66		out	line	l		SDO
+67		in	line	l		SDIO
+68		in	line	l		SCLK
+69		in	line	l		CSB
+70		in	line	l		RESET
+71		out	line	l		IRQ
+73		pas	line	l		IPTAT
+74		out	line	l		VREF
+75		pas	line	l		I120
+31		pas	line	l		NC
+34		pas	line	l		NC
+35		pas	line	l		NC
+36		pas	line	l		NC
+56		pas	line	l		NC
+57		pas	line	l		NC
+58		pas	line	l		NC
+59		pas	line	l		NC
+92		out	line	r		OUT1_N
+93		out	line	r		OUT1_P
+83		out	line	r		OUT2_P
+84		out	line	r		OUT2_N
+89		out	line	r		AUX1_N
+90		out	line	r		AUX1_P
+86		out	line	r		AUX2_P
+87		out	line	r		AUX2_N
+76		pwr	line	r		AVDD33
+78		pwr	line	r		AVDD33
+80		pwr	line	r		AVDD33
+96		pwr	line	r		AVDD33
+98		pwr	line	r		AVDD33
+100		pwr	line	r		AVDD33
+12		pwr	line	r		AGND
+72		pwr	line	r		AGND
+77		pwr	line	r		AGND
+79		pwr	line	r		AGND
+81		pwr	line	r		AGND
+82		pwr	line	r		AGND
+85		pwr	line	r		AGND
+88		pwr	line	r		AGND
+91		pwr	line	r		AGND
+94		pwr	line	r		AGND
+95		pwr	line	r		AGND
+97		pwr	line	r		AGND
+99		pwr	line	r		AGND
+1		pwr	line	r		CVDD18
+2		pwr	line	r		CVDD18
+9		pwr	line	r		CVDD18
+10		pwr	line	r		CVDD18
+3		pwr	line	r		CGND
+4		pwr	line	r		CGND
+7		pwr	line	r		CGND
+8		pwr	line	r		CGND
+11		pwr	line	r		CGND
+16		pwr	line	r		DVDD18
+23		pwr	line	r		DVDD18
+33		pwr	line	r		DVDD18
+38		pwr	line	r		DVDD33
+43		pwr	line	r		DVDD18
+53		pwr	line	r		DVDD18
+60		pwr	line	r		DVDD18
+61		pwr	line	r		DVDD33
+15		pwr	line	r		DGND
+22		pwr	line	r		DGND
+32		pwr	line	r		DGND
+44		pwr	line	r		DGND
+54		pwr	line	r		DGND
+64		pwr	line	r		DGND

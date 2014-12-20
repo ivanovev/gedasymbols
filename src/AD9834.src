@@ -1,0 +1,73 @@
+# This is the template file for creating symbols with tragesym.py
+# every line starting with '#' is a comment line.
+ 
+[options]
+# rotate_labels rotates the pintext of top and bottom pins
+# wordswap swaps labels if the pin is on the right side an looks like this:
+# "PB1 (CLK)"
+wordswap=yes
+rotate_labels=no
+sort_labels=no
+generate_pinseq=yes
+sym_width=1600
+pinwidthvertikal=400
+pinwidthhorizontal=400
+ 
+[geda_attr]
+# name will be printed in the top of the symbol
+# if you have a device with slots, you'll have to use slot= and slotdef=
+# use comment= if there are special information you want to add
+version=20131118
+name=AD9834
+device=AD9834BRUZ
+refdes=U?
+footprint=TSSOP20
+description=DDS
+documentation=http://www.analog.com/en/digital-to-analog-converters/direct-digital-synthesis-dds/ad9834/products/product.html
+author=Evgeny Ivanov
+dist-license=GPL
+use-license=unlimited
+numslots=0
+#slot=1
+#slotdef=1:
+#slotdef=2:
+#slotdef=3:
+#slotdef=4:
+comment=generated with tragesym
+#comment=
+#comment=
+ 
+[pins]
+# tabseparated list of pin descriptions
+# pinnr is the physical number of the pin
+# seq is the pinseq= attribute, leave it blank if it doesn't matter
+# type can be (in, out, i/o, oc, oe, pas, tp, tri, clk, pwr)
+# style can be (line,dot,clk,dotclk,none). none if only want to add a net
+# posit. can be (l,r,t,b) or empty for nets
+# net specifies the name of the Vcc or GND name
+# label represents the pinlabel.
+#       negation lines can be added with _Q_
+#       if you want to add a "_" or "\" use \_ and \\ as escape sequences
+#-----------------------------------------------------
+#pinnr  seq     type    style   posit.  net     label
+#-----------------------------------------------------
+8		in	line	l		MCLK
+11		in	line	l		RESET
+13		in	line	l		SDATA
+14		in	line	l		SCLK
+15		in	line	l		FSYNC
+17		in	line	l		VIN
+1		in	line	l		FS_ADJUST
+9		in	line	l		FSELECT
+10		in	line	l		PSELECT
+12		in	line	l		SLEEP
+19		out	line	r		IOUT
+20		out	line	r		IOUTB
+2		out	line	r		REFOUT
+3		pas	line	r		COMP
+6		pas	line	r		CAP
+16		out	line	r		SIGN_BIT_OUT
+4		pwr	line	r		AVDD
+5		pwr	line	r		DVDD
+18		pwr	line	r		AGND
+7		pwr	line	r		DGND

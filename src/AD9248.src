@@ -1,0 +1,117 @@
+# This is the template file for creating symbols with tragesym.py
+# every line starting with '#' is a comment line.
+ 
+[options]
+# rotate_labels rotates the pintext of top and bottom pins
+# wordswap swaps labels if the pin is on the right side an looks like this:
+# "PB1 (CLK)"
+wordswap=yes
+rotate_labels=no
+sort_labels=no
+generate_pinseq=yes
+sym_width=3000
+pinwidthvertikal=400
+pinwidthhorizontal=400
+ 
+[geda_attr]
+# name will be printed in the top of the symbol
+# if you have a device with slots, you'll have to use slot= and slotdef=
+# use comment= if there are special information you want to add
+name=AD9248
+version=20121012
+device=AD9248BSTZ
+refdes=U?
+footprint=LQFP64_7
+description=Dual, 3 V, 14-bit, 20/40/65 MSPS ADC
+documentation=http://www.analog.com/en/analog-to-digital-converters/ad-converters/ad9248/products/product.html
+author=Evgeny Ivanov
+dist-license=GPL
+use-license=unlimited
+numslots=0
+#slot=1
+#slotdef=1:
+#slotdef=2:
+#slotdef=3:
+#slotdef=4:
+comment=generated with tragesym
+#comment=
+#comment=
+ 
+[pins]
+# tabseparated list of pin descriptions
+# pinnr is the physical number of the pin
+# seq is the pinseq= attribute, leave it blank if it doesn't matter
+# type can be (in, out, i/o, oc, oe, pas, tp, tri, clk, pwr)
+# style can be (line,dot,clk,dotclk,none). none if only want to add a net
+# posit. can be (l,r,t,b) or empty for nets
+# net specifies the name of the Vcc or GND name
+# label represents the pinlabel.
+#       negation lines can be added with _Q_
+#       if you want to add a "_" or "\" use \_ and \\ as escape sequences
+#-----------------------------------------------------
+#pinnr  seq     type    style   posit.  net     label
+#-----------------------------------------------------
+6		pas	line	l		REFT_A
+11		pas	line	l		REFT_B
+7		pas	line	l		REFB_A
+10		pas	line	l		REFB_B
+3		in	line	l		VIN−_A
+2		in	line	l		VIN+_A
+14		in	line	l		VIN−_B
+15		in	line	l		VIN+_B
+59		out	dot	l		\_OEB_A\_
+22		in	dot	l		\_OEB_B\_
+60		in	line	l		PDWN_A
+21		in	line	l		PDWN_B
+9		in	line	l		SENSE
+8		out	line	l		VREF
+19		in	line	l		DCS
+20		in	line	l		DFS
+61		in	line	l		MUX_SELECT
+62		in	line	l		SHARED_REF
+5		pwr	line	l		AVDD
+12		pwr	line	l		AVDD
+17		pwr	line	l		AVDD
+64		pwr	line	l		AVDD
+4		pwr	line	l		AGND
+1		pwr	line	l		AGND
+13		pwr	line	l		AGND
+16		pwr	line	l		AGND
+29		pwr	line	l		DRVDD
+41		pwr	line	l		DRVDD
+52		pwr	line	l		DRVDD
+28		pwr	line	l		DRGND
+40		pwr	line	l		DRGND
+53		pwr	line	l		DRGND
+58		out	line	r		OTR_A
+57		out	line	r		DA_13
+56		out	line	r		DA_12
+55		out	line	r		DA_11
+54		out	line	r		DA_10
+51		out	line	r		DA_09
+50		out	line	r		DA_08
+49		out	line	r		DA_07
+48		out	line	r		DA_06
+47		out	line	r		DA_05
+46		out	line	r		DA_04
+45		out	line	r		DA_03
+44		out	line	r		DA_02
+43		out	line	r		DA_01
+42		out	line	r		DA_00
+63		in	line	r		CLK_A
+18		in	line	r		CLK_B
+39		out	line	r		OTR_B
+38		out	line	r		DB_13
+37		out	line	r		DB_12
+36		out	line	r		DB_11
+35		out	line	r		DB_10
+34		out	line	r		DB_09
+33		out	line	r		DB_08
+32		out	line	r		DB_07
+31		out	line	r		DB_06
+30		out	line	r		DB_05
+27		out	line	r		DB_04
+26		out	line	r		DB_03
+25		out	line	r		DB_02
+24		out	line	r		DB_01
+23		out	line	r		DB_00

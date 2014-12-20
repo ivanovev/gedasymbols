@@ -1,0 +1,184 @@
+# This is the template file for creating symbols with tragesym.py
+# every line starting with '#' is a comment line.
+ 
+[options]
+# rotate_labels rotates the pintext of top and bottom pins
+# wordswap swaps labels if the pin is on the right side an looks like this:
+# "PB1 (CLK)"
+wordswap=yes
+rotate_labels=no
+sort_labels=no
+generate_pinseq=yes
+sym_width=4000
+pinwidthvertikal=400
+pinwidthhorizontal=400
+ 
+[geda_attr]
+# name will be printed in the top of the symbol
+# if you have a device with slots, you'll have to use slot= and slotdef=
+# use comment= if there are special information you want to add
+version=20130813
+name=HYSTM32
+device=HYSTM32
+refdes=U?
+footprint=HYSTM32
+description=HY-STM32F407 board
+documentation=http://www.powermcu.com/product-19.html
+author=Evgeny Ivanov
+dist-license=GPL
+use-license=unlimited
+numslots=0
+#slot=1
+#slotdef=1:
+#slotdef=2:
+#slotdef=3:
+#slotdef=4:
+comment=generated with tragesym
+#comment=
+#comment=
+ 
+[pins]
+# tabseparated list of pin descriptions
+# pinnr is the physical number of the pin
+# seq is the pinseq= attribute, leave it blank if it doesn't matter
+# type can be (in, out, i/o, oc, oe, pas, tp, tri, clk, pwr)
+# style can be (line,dot,clk,dotclk,none). none if only want to add a net
+# posit. can be (l,r,t,b) or empty for nets
+# net specifies the name of the Vcc or GND name
+# label represents the pinlabel.
+#       negation lines can be added with _Q_
+#       if you want to add a "_" or "\" use \_ and \\ as escape sequences
+#-----------------------------------------------------
+#pinnr  seq     type    style   posit.  net     label
+#-----------------------------------------------------
+B03		io	line	l		PA13/SWDIO
+A01		out	line	l		PA14/SWCLK
+			spacer	l		
+B01		pwr	line	l		5V_IN
+B02		pwr	line	l		3V3_OUT
+A57		pwr	line	l		VDDA
+A56		pwr	line	l		VREF
+A35		pwr	line	l		VBAT
+A55		pwr	line	l		GND
+B04		pwr	line	l		GND
+			spacer	l		
+B07		in	line	l		PA9/USB_VBUS
+B08		io	line	l		PA10/USB_ID
+B05		io	line	l		PA11/USB_DM
+B06		io	line	l		PA12/USB_DP
+			spacer	l		
+B58		out	line	l		PA6/DCMI_PIXCK
+B60		out	line	l		PA4/DCMI_HSYNC
+A25		out	line	l		PB7/DCMI_VSYNC
+B14		out	line	l		PC6/DCMI_D0
+B11		out	line	l		PC7/DCMI_D1
+B12		out	line	l		PC8/DCMI_D2
+B09		out	line	l		PC9/DCMI_D3
+A32		out	line	l		PE4/DCMI_D4
+A24		out	line	l		PB6/DCMI_D5
+A33		out	line	l		PE5/DCMI_D6
+A34		out	line	l		PE6/DCMI_D7
+B10		in	line	l		PA8/MCO_1
+			spacer	l		
+A59		in	line	l		PA1/REF_CLK
+A52		io	line	l		PC1/MDC
+A60		io	line	l		PA2/MDIO
+B55		in	line	l		PA7/CRS_DV
+B56		in	line	l		PC4/RXD0
+B53		in	line	l		PC5/RXD1
+B34		out	line	l		PB11/TX_EN
+B31		out	line	l		PB12/TXD0
+B32		out	line	l		PB13/TXD1
+			spacer	l		
+A58		out	line	l		PA0/TIM2_CH1
+A21		out	line	l		PB3/TIM2_CH2
+B33		out	line	l		PB10/TIM2_CH3
+B59		out	line	l		PA3/TIM2_CH4
+			spacer	l		
+A46		in	line	l		PF7/TIM11_CH1
+A47		io	line	l		PF8/TIM13_CH1
+			spacer	l		
+A26		out	line	l		PB8/I2C1_SCL
+A27		io	line	l		PB9/I2C1_SDA
+			spacer	l		
+A03		out	line	l		PC10/UART4_TX
+A04		in	line	l		PC11/UART4_RX
+			spacer	l		
+A05		out	line	l		PC12/UART5_TX
+A08		in	line	l		PD2/UART5_RX
+			spacer	l		
+B57		out	line	l		PA5/SPI1_SCK
+A22		in	line	l		PB4/SPI1_MISO
+A23		out	line	l		PB5/SPI1_MOSI
+			spacer	l		
+B54		io	line	l		PB0/ADC1_IN8
+B51		io	line	l		PB1/ADC1_IN9
+			spacer	l		
+A50		in	line	l		RESET
+A45		out	line	l		PF6/LED
+B52		in	line	l		PB2/BOOT1
+A39		out	line	r		PF0/FSMC_A0
+A40		out	line	r		PF1/FSMC_A1
+A41		out	line	r		PF2/FSMC_A2
+A42		out	line	r		PF3/FSMC_A3
+A43		out	line	r		PF4/FSMC_A4
+A44		out	line	r		PF5/FSMC_A5
+B50		out	line	r		PF12/FSMC_A6
+B47		out	line	r		PF13/FSMC_A7
+B48		out	line	r		PF14/FSMC_A8
+B45		out	line	r		PF15/FSMC_A9
+B46		out	line	r		PG0/FSMC_A10
+B43		out	line	r		PG1/FSMC_A11
+B19		out	line	r		PG2/FSMC_A12
+B20		out	line	r		PG3/FSMC_A13
+B17		out	line	r		PG4/FSMC_A14
+B18		out	line	r		PG5/FSMC_A15
+B26		out	line	r		PD11/FSMC_A16
+B23		out	line	r		PD12/FSMC_A17
+B24		out	line	r		PD13/FSMC_A18
+B21		in	line	r		PD14/FSMC_D0
+B22		in	line	r		PD15/FSMC_D1
+A06		in	line	r		PD0/FSMC_D2
+A07		in	line	r		PD1/FSMC_D3
+B44		in	line	r		PE7/FSMC_D4
+B41		in	line	r		PE8/FSMC_D5
+B42		in	line	r		PE9/FSMC_D6
+B39		in	line	r		PE10/FSMC_D7
+B40		in	line	r		PE11/FSMC_D8
+B37		in	line	r		PE12/FSMC_D9
+B38		in	line	r		PE13/FSMC_D10
+B35		in	line	r		PE14/FSMC_D11
+B36		in	line	r		PE15/FSMC_D12
+B27		in	line	r		PD8/FSMC_D13
+B28		in	line	r		PD9/FSMC_D14
+B25		in	line	r		PD10/FSMC_D15
+A28		out	line	r		PE0/FSMC_NBL0
+A29		out	line	r		PE1/FSMC_NBL1
+A10		out	line	r		PD4/FSMC_NOE
+A11		out	line	r		PD5/FSMC_NWE
+A12		io	line	r		PD6/FSMC_NWAIT
+A13		out	line	r		PD7/FSMC_NCE2
+B15		out	line	r		PG6/FSMC_INT2
+A14		io	line	r		PG9/FSMC_NE2
+A15		io	line	r		PG10/FSMC_NE3
+			spacer	r		
+A02		out	line	r		PA15/SPI1_NSS
+A51		io	line	r		PC0
+A53		io	line	r		PC2
+A54		io	line	r		PC3
+A36		io	line	r		PC13
+A37		io	line	r		PC14
+A38		io	line	r		PC15
+A09		io	line	r		PD3
+A30		io	line	r		PE2
+A31		io	line	r		PE3
+B16		io	line	r		PG7
+A48		io	line	r		PF9
+A49		io	line	r		PF10
+B49		io	line	r		PF11
+B13		io	line	r		PG8
+A16		out	line	r		PG11
+A17		io	line	r		PG12
+A18		out	line	r		PG13
+A19		out	line	r		PG14
+A20		io	line	r		PG15

@@ -1,0 +1,97 @@
+# This is the template file for creating symbols with tragesym.py
+# every line starting with '#' is a comment line.
+ 
+[options]
+# rotate_labels rotates the pintext of top and bottom pins
+# wordswap swaps labels if the pin is on the right side an looks like this:
+# "PB1 (CLK)"
+wordswap=yes
+rotate_labels=no
+sort_labels=no
+generate_pinseq=yes
+sym_width=2000
+pinwidthvertikal=400
+pinwidthhorizontal=400
+ 
+[geda_attr]
+# name will be printed in the top of the symbol
+# if you have a device with slots, you'll have to use slot= and slotdef=
+# use comment= if there are special information you want to add
+version=20130319
+name=AN231E04
+device=AN231E04
+refdes=U?
+footprint=QFN44_7
+description=dpASP
+documentation=www.anadigm.com/an231e04.asp
+author=Evgeny Ivanov
+dist-license=GPL
+use-license=unlimited
+numslots=0
+#slot=1
+#slotdef=1:
+#slotdef=2:
+#slotdef=3:
+#slotdef=4:
+comment=generated with tragesym
+#comment=
+#comment=
+ 
+[pins]
+# tabseparated list of pin descriptions
+# pinnr is the physical number of the pin
+# seq is the pinseq= attribute, leave it blank if it doesn't matter
+# type can be (in, out, i/o, oc, oe, pas, tp, tri, clk, pwr)
+# style can be (line,dot,clk,dotclk,none). none if only want to add a net
+# posit. can be (l,r,t,b) or empty for nets
+# net specifies the name of the Vcc or GND name
+# label represents the pinlabel.
+#       negation lines can be added with _Q_
+#       if you want to add a "_" or "\" use \_ and \\ as escape sequences
+#-----------------------------------------------------
+#pinnr  seq     type    style   posit.  net     label
+#-----------------------------------------------------
+1		in	line	l		I1P
+2		in	line	l		I1N
+9		in	line	l		I2P
+8		in	line	l		I2N
+11		in	line	l		I3P
+12		in	line	l		I3N
+24		in	line	l		I4P
+23		in	line	l		I4N
+32		in	line	l		CS1b
+31		in	line	l		CS2b
+33		in	line	l		SCLK
+38		in	line	l		SI
+43		out	line	l		SO
+34		in	line	l		ACLK
+35		in	line	l		MODE
+30		out	line	l		CFGFLGb
+44		in	line	l		RESETb
+41		out	line	l		ACTIVATE
+40		out	line	l		ERRb
+26		pas	line	l		VREFP
+27		pas	line	l		VMR
+28		pas	line	l		VREFN
+39		out	line	r		LCCb/DOUT1
+42		out	line	r		MEMCLK/DOUT2
+3		out	line	r		O1N
+4		out	line	r		O1P
+6		out	line	r		O2P
+7		out	line	r		O2N
+15		i/o	line	r		IO5P
+16		i/o	line	r		IO5N
+17		i/o	line	r		IO6P
+18		i/o	line	r		IO6N
+19		i/o	line	r		IO7P
+20		i/o	line	r		IO7N
+13		out	line	r		O3N
+14		out	line	r		O3P
+21		out	line	r		O4P
+22		out	line	r		O4N
+10		pwr	line	r		AVDD
+25		pwr	line	r		BVDD
+36		pwr	line	r		DVDD
+5		pwr	line	r		AVSS
+29		pwr	line	r		BVSS
+37		pwr	line	r		DVSS

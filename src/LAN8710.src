@@ -1,0 +1,105 @@
+# This is the template file for creating symbols with tragesym.py
+# every line starting with '#' is a comment line.
+ 
+[options]
+# rotate_labels rotates the pintext of top and bottom pins
+# wordswap swaps labels if the pin is on the right side an looks like this:
+# "PB1 (CLK)"
+wordswap=yes
+rotate_labels=no
+sort_labels=no
+generate_pinseq=yes
+sym_width=3500
+pinwidthvertikal=400
+pinwidthhorizontal=400
+ 
+[geda_attr]
+# name will be printed in the top of the symbol
+# if you have a device with slots, you'll have to use slot= and slotdef=
+# use comment= if there are special information you want to add
+version=20140725
+name=LAN8710
+device=LAN8710
+refdes=U?
+footprint=QFN32_5_EP
+description=LAN8710 ETH PHY
+documentation=www.microchip.com/LAN8710A
+author=Evgeny Ivanov
+dist-license=GPL
+use-license=unlimited
+numslots=0
+#slot=1
+#slotdef=1:
+#slotdef=2:
+#slotdef=3:
+#slotdef=4:
+comment=generated with tragesym
+#comment=
+#comment=
+ 
+[pins]
+# tabseparated list of pin descriptions
+# pinnr is the physical number of the pin
+# seq is the pinseq= attribute, leave it blank if it doesn't matter
+# type can be (in, out, i/o, oc, oe, pas, tp, tri, clk, pwr)
+# style can be (line,dot,clk,dotclk,none). none if only want to add a net
+# posit. can be (l,r,t,b) or empty for nets
+# net specifies the name of the Vcc or GND name
+# label represents the pinlabel.
+#       negation lines can be added with _Q_
+#       if you want to add a "_" or "\" use \_ and \\ as escape sequences
+#-----------------------------------------------------
+#pinnr  seq     type    style   posit.  net     label
+#-----------------------------------------------------
+12		pwr	line	l		VDDIO
+			spacer	l		
+			spacer	l		
+27		pwr	line	l		VDD1A
+			spacer	l		
+1		pwr	line	l		VDD2A
+			spacer	l		
+6		pwr	line	l		VDDCR
+			spacer	l		
+			spacer	l		
+			spacer	l		
+			spacer	l		
+33		pwr	line	l		GND
+			spacer	l		
+			spacer	l		
+			spacer	l		
+4		in	line	l		XTAL2
+5		in	line	l		XTAL1/CLKIN
+			spacer	l		
+3		out	line	l		LED1/REGOFF
+2		out	line	l		LED2/nINTSEL
+			spacer	l		
+29		out	line	l		TXP
+28		out	line	l		TXN
+31		in	line	l		RXP
+30		in	line	l		RXN
+22		in	line	r		TXD0
+23		in	line	r		TXD1
+24		in	line	r		TXD2
+25		in	line	r		TXD3
+18		out	dot	r		nINT/TXER/TXD4
+21		in	line	r		TXEN
+20		in	line	r		TXCLK
+			spacer	r		
+11		out	line	r		RXD0/MODE0
+10		out	line	r		RXD1/MODE1
+9		out	line	r		RXD2/RMIISEL
+8		out	line	r		RXD3/PHYAD2
+13		in	line	r		RXER/RXD4/PHYAD0
+7		in	line	r		RXCLK/PHYAD1
+26		in	line	r		RXDV
+			spacer	r		
+17		in	line	r		MDC
+16		io	line	r		MDIO
+			spacer	r		
+14		out	line	r		CRS
+			spacer	r		
+15		out	line	r		COL/CRS_DV/MODE2
+			spacer	r		
+19		in	dot	r		nRST
+			spacer	r		
+32		in	line	r		RBIAS
