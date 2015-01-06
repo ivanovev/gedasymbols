@@ -13,33 +13,33 @@ pintype=pwr
 P 100 6100 400 6100 1 0 0
 {
 T 300 6150 5 8 1 1 0 6 1
-pinnumber=6
+pinnumber=19
 T 300 6050 5 8 0 1 0 8 1
 pinseq=2
 T 450 6100 9 8 1 1 0 0 1
-pinlabel=VDDCR
+pinlabel=VDD1A
 T 450 6100 5 8 0 1 0 2 1
 pintype=pwr
 }
 P 100 5300 400 5300 1 0 0
 {
 T 300 5350 5 8 1 1 0 6 1
-pinnumber=19
+pinnumber=1
 T 300 5250 5 8 0 1 0 8 1
 pinseq=3
 T 450 5300 9 8 1 1 0 0 1
-pinlabel=VDD1A
+pinlabel=VDD2A
 T 450 5300 5 8 0 1 0 2 1
 pintype=pwr
 }
 P 100 4500 400 4500 1 0 0
 {
 T 300 4550 5 8 1 1 0 6 1
-pinnumber=1
+pinnumber=6
 T 300 4450 5 8 0 1 0 8 1
 pinseq=4
 T 450 4500 9 8 1 1 0 0 1
-pinlabel=VDD2A
+pinlabel=VDDCR
 T 450 4500 5 8 0 1 0 2 1
 pintype=pwr
 }
@@ -219,16 +219,16 @@ pinlabel=nINT/REFCLKO
 T 2850 3300 5 8 0 1 0 8 1
 pintype=out
 }
-P 3200 2500 2900 2500 1 0 0
+P 3200 2900 2900 2900 1 0 0
 {
-T 3000 2550 5 8 1 1 0 0 1
-pinnumber=12
-T 3000 2450 5 8 0 1 0 2 1
+T 3000 2950 5 8 1 1 0 0 1
+pinnumber=11
+T 3000 2850 5 8 0 1 0 2 1
 pinseq=21
-T 2850 2500 9 8 1 1 0 6 1
-pinlabel=MDIO
-T 2850 2500 5 8 0 1 0 8 1
-pintype=io
+T 2850 2900 9 8 1 1 0 6 1
+pinlabel=CRS_DV/MODE2
+T 2850 2900 5 8 0 1 0 8 1
+pintype=out
 }
 P 3200 2100 2900 2100 1 0 0
 {
@@ -241,16 +241,16 @@ pinlabel=MDC
 T 2850 2100 5 8 0 1 0 8 1
 pintype=in
 }
-P 3200 1300 2900 1300 1 0 0
+P 3200 1700 2900 1700 1 0 0
 {
-T 3000 1350 5 8 1 1 0 0 1
-pinnumber=11
-T 3000 1250 5 8 0 1 0 2 1
+T 3000 1750 5 8 1 1 0 0 1
+pinnumber=12
+T 3000 1650 5 8 0 1 0 2 1
 pinseq=23
-T 2850 1300 9 8 1 1 0 6 1
-pinlabel=CRS_DV/MODE2
-T 2850 1300 5 8 0 1 0 8 1
-pintype=out
+T 2850 1700 9 8 1 1 0 6 1
+pinlabel=MDIO
+T 2850 1700 5 8 0 1 0 8 1
+pintype=io
 }
 P 3200 900 3000 900 1 0 0
 {
