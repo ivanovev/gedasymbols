@@ -1,0 +1,181 @@
+v 20130815 1
+P 100 3300 400 3300 1 0 0
+{
+T 300 3350 5 8 1 1 0 6 1
+pinnumber=11
+T 300 3250 5 8 0 1 0 8 1
+pinseq=1
+T 450 3300 9 8 1 1 0 0 1
+pinlabel=PHY_RX+
+T 450 3300 5 8 0 1 0 2 1
+pintype=in
+}
+P 100 2900 400 2900 1 0 0
+{
+T 300 2950 5 8 1 1 0 6 1
+pinnumber=12
+T 300 2850 5 8 0 1 0 8 1
+pinseq=2
+T 450 2900 9 8 1 1 0 0 1
+pinlabel=PHY_RX-
+T 450 2900 5 8 0 1 0 2 1
+pintype=in
+}
+P 100 2500 400 2500 1 0 0
+{
+T 300 2550 5 8 1 1 0 6 1
+pinnumber=13
+T 300 2450 5 8 0 1 0 8 1
+pinseq=3
+T 450 2500 9 8 1 1 0 0 1
+pinlabel=PHY_TX+
+T 450 2500 5 8 0 1 0 2 1
+pintype=out
+}
+P 100 2100 400 2100 1 0 0
+{
+T 300 2150 5 8 1 1 0 6 1
+pinnumber=14
+T 300 2050 5 8 0 1 0 8 1
+pinseq=4
+T 450 2100 9 8 1 1 0 0 1
+pinlabel=PHY_TX-
+T 450 2100 5 8 0 1 0 2 1
+pintype=out
+}
+P 100 1700 400 1700 1 0 0
+{
+T 300 1750 5 8 1 1 0 6 1
+pinnumber=7
+T 300 1650 5 8 0 1 0 8 1
+pinseq=5
+T 450 1700 9 8 1 1 0 0 1
+pinlabel=RESET
+T 450 1700 5 8 0 1 0 2 1
+pintype=in
+}
+P 100 1300 300 1300 1 0 0
+{
+T 300 1350 5 8 1 1 0 6 1
+pinnumber=8
+T 300 1250 5 8 0 1 0 8 1
+pinseq=6
+T 450 1300 9 8 1 1 0 0 1
+pinlabel=nLink/GPIO8
+T 450 1300 5 8 0 1 0 2 1
+pintype=out
+}
+V 350 1300 50 6 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+P 100 900 300 900 1 0 0
+{
+T 300 950 5 8 1 1 0 6 1
+pinnumber=9
+T 300 850 5 8 0 1 0 8 1
+pinseq=7
+T 450 900 9 8 1 1 0 0 1
+pinlabel=nReady/GPIO9
+T 450 900 5 8 0 1 0 2 1
+pintype=out
+}
+V 350 900 50 6 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+P 100 500 300 500 1 0 0
+{
+T 300 550 5 8 1 1 0 6 1
+pinnumber=10
+T 300 450 5 8 0 1 0 8 1
+pinseq=8
+T 450 500 9 8 1 1 0 0 1
+pinlabel=nReload/GPIO10
+T 450 500 5 8 0 1 0 2 1
+pintype=out
+}
+V 350 500 50 6 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+P 3200 3300 2900 3300 1 0 0
+{
+T 3000 3350 5 8 1 1 0 0 1
+pinnumber=3
+T 3000 3250 5 8 0 1 0 2 1
+pinseq=9
+T 2850 3300 9 8 1 1 0 6 1
+pinlabel=UART_TXD/GPIO3
+T 2850 3300 5 8 0 1 0 8 1
+pintype=io
+}
+P 3200 2900 2900 2900 1 0 0
+{
+T 3000 2950 5 8 1 1 0 0 1
+pinnumber=4
+T 3000 2850 5 8 0 1 0 2 1
+pinseq=10
+T 2850 2900 9 8 1 1 0 6 1
+pinlabel=UART_RXD/GPIO4
+T 2850 2900 5 8 0 1 0 8 1
+pintype=io
+}
+P 3200 2500 2900 2500 1 0 0
+{
+T 3000 2550 5 8 1 1 0 0 1
+pinnumber=5
+T 3000 2450 5 8 0 1 0 2 1
+pinseq=11
+T 2850 2500 9 8 1 1 0 6 1
+pinlabel=UART_RTS/GPIO5
+T 2850 2500 5 8 0 1 0 8 1
+pintype=io
+}
+P 3200 2100 2900 2100 1 0 0
+{
+T 3000 2150 5 8 1 1 0 0 1
+pinnumber=6
+T 3000 2050 5 8 0 1 0 2 1
+pinseq=12
+T 2850 2100 9 8 1 1 0 6 1
+pinlabel=UART_CTS/GPIO6
+T 2850 2100 5 8 0 1 0 8 1
+pintype=io
+}
+P 3200 900 2900 900 1 0 0
+{
+T 3000 950 5 8 1 1 0 0 1
+pinnumber=2
+T 3000 850 5 8 0 1 0 2 1
+pinseq=13
+T 2850 900 9 8 1 1 0 6 1
+pinlabel=3V3
+T 2850 900 5 8 0 1 0 8 1
+pintype=pwr
+}
+P 3200 500 2900 500 1 0 0
+{
+T 3000 550 5 8 1 1 0 0 1
+pinnumber=1
+T 3000 450 5 8 0 1 0 2 1
+pinseq=14
+T 2850 500 9 8 1 1 0 6 1
+pinlabel=GND
+T 2850 500 5 8 0 1 0 8 1
+pintype=pwr
+}
+B 400 100 2500 3600 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+T 2900 3800 8 10 1 1 0 6 1
+refdes=U?
+T 400 3800 9 10 1 0 0 0 1
+USRWIFI
+T 400 4000 5 10 0 0 0 0 1
+device=USRWIFI
+T 400 4200 5 10 0 0 0 0 1
+footprint=HEADER20_2mm
+T 400 4400 5 10 0 0 0 0 1
+author=Evgeny Ivanov
+T 400 4600 5 10 0 0 0 0 1
+documentation=http://
+T 400 4800 5 10 0 0 0 0 1
+description=USR-WIFI232 module
+T 400 5000 5 10 0 0 0 0 1
+numslots=0
+T 400 5200 5 10 0 0 0 0 1
+dist-license=GPL
+T 400 5400 5 10 0 0 0 0 1
+use-license=unlimited
+T 400 5600 5 10 0 0 0 0 1
+comment=generated with tragesym
