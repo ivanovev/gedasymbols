@@ -46,22 +46,22 @@ pintype=pas
 P 100 11300 400 11300 1 0 0
 {
 T 300 11350 5 8 1 1 0 6 1
-pinnumber=3
+pinnumber=2
 T 300 11250 5 8 0 1 0 8 1
 pinseq=5
 T 450 11300 9 8 1 1 0 0 1
-pinlabel=VIN−_A
+pinlabel=VIN+_A
 T 450 11300 5 8 0 1 0 2 1
 pintype=in
 }
 P 100 10900 400 10900 1 0 0
 {
 T 300 10950 5 8 1 1 0 6 1
-pinnumber=2
+pinnumber=3
 T 300 10850 5 8 0 1 0 8 1
 pinseq=6
 T 450 10900 9 8 1 1 0 0 1
-pinlabel=VIN+_A
+pinlabel=VIN−_A
 T 450 10900 5 8 0 1 0 2 1
 pintype=in
 }

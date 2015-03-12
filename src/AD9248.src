@@ -55,8 +55,8 @@ comment=generated with tragesym
 11		pas	line	l		REFT_B
 7		pas	line	l		REFB_A
 10		pas	line	l		REFB_B
-3		in	line	l		VIN−_A
 2		in	line	l		VIN+_A
+3		in	line	l		VIN−_A
 14		in	line	l		VIN−_B
 15		in	line	l		VIN+_B
 59		out	dot	l		\_OEB_A\_
