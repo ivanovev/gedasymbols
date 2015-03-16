@@ -2,7 +2,7 @@
 # dist-license: GPL
 # use-license: unlimited
 
-# VS-10MQ060N Schottky Rectifier
+# VS-10MQ060N Schottky Rectifier footprint
 Element["" "" "10MQ060N" "" 0 0 -3000um -3000um 0 100 ""]
 (
     Pad[-2130um -100um -2130um 100um 1270um 1000um 2270um "1" "1" "square"]
