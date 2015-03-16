@@ -3,7 +3,7 @@
 # use-license: unlimited
 #
 # QFN10_3_EP footprint (TPS61080)
-Element["" "Quad Flat Nolead (QFN) package" "" "QFN10_3_EP" 0 0 -500um -800um 0 100 0]
+Element["" "Quad Flat Nolead (QFN) package" "" "QFN10_3_EP" 0 0 0 0 0 100 0]
 (
 # left row
 	Pad[-1760um  -1000um  -1190um  -1000um  280um  220um 500um "" "1" "square"]
