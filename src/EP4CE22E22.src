@@ -51,14 +51,10 @@ comment=generated with tragesym
 #-----------------------------------------------------
 #pinnr  seq     type    style   posit.  net     label
 #-----------------------------------------------------
-8		io	line	l		IO_8
-9		io	line	l		IO_9
+7		io	line	l		IO_7
 10		io	line	l		IO_10
 11		io	line	l		IO_11
-23		io	line	l		IO_23
 			spacer	l		
-24		io	line	l		IO_24
-25		io	line	l		IO_25
 28		io	line	l		IO_28
 30		io	line	l		IO_30
 31		io	line	l		IO_31
@@ -73,11 +69,7 @@ comment=generated with tragesym
 49		io	line	l		IO_49
 50		io	line	l		IO_50
 51		io	line	l		IO_51
-52		io	line	l		IO_52
-53		io	line	l		IO_53
 			spacer	l		
-54		io	line	l		IO_54
-55		io	line	l		IO_55
 58		io	line	l		IO_58
 59		io	line	l		IO_59
 60		io	line	l		IO_60
@@ -90,18 +82,27 @@ comment=generated with tragesym
 71		io	line	l		IO_71
 72		io	line	l		IO_72
 			spacer	l		
-6		io	line	l		ASDO
-7		io	line	l		nCSO
-12		io	line	l		DCLK
-13		io	line	l		DATA0
+23		io	line	l		CLK1
+24		io	line	l		CLK2
+25		io	line	l		CLK3
+91		io	line	l		CLK4
+90		io	line	l		CLK5
+89		io	line	l		CLK6
+88		io	line	l		CLK7
+55		io	line	l		CLK12
+54		io	line	l		CLK13
+53		io	line	l		CLK14
+52		io	line	l		CLK15
 			spacer	l		
 15		io	line	l		TDI
 16		io	line	l		TCK
 18		io	line	l		TMS
 20		io	line	l		TDO
 			spacer	l		
-21		io	line	l		nCE
+9		io	line	l		nSTATUS
 14		io	line	l		nCONFIG
+21		io	line	l		nCE
+92		io	line	l		CONF_DONE
 100		io	line	l		RESET
 			spacer	l		
 5		pwr	line	l		VCCINT
@@ -129,15 +130,7 @@ comment=generated with tragesym
 85		io	line	r		IO_85
 86		io	line	r		IO_86
 87		io	line	r		IO_87
-88		io	line	r		IO_88
-89		io	line	r		IO_89
 			spacer	r		
-90		io	line	r		IO_90
-91		io	line	r		IO_91
-92		io	line	r		IO_92
-94		io	line	r		IO_94
-96		io	line	r		IO_96
-97		io	line	r		IO_97
 98		io	line	r		IO_98
 99		io	line	r		IO_99
 101		io	line	r		IO_101
@@ -170,6 +163,15 @@ comment=generated with tragesym
 142		io	line	r		IO_142
 143		io	line	r		IO_143
 144		io	line	r		IO_144
+			spacer	r		
+94		io	line	r		MSEL0
+96		io	line	r		MSEL1
+97		io	line	r		MSEL2
+			spacer	r		
+6		io	line	r		ASDO
+8		io	line	r		nCSO
+12		io	line	r		DCLK
+13		io	line	r		DATA0
 			spacer	r		
 17		pwr	line	r		VCCIO1
 26		pwr	line	r		VCCIO2
