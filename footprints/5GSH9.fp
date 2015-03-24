@@ -3,7 +3,7 @@
 # use-license: unlimited
 
 # 5GSH9 SMD button
-Element["" "" "5GSH9" "" 0 0 -5000um -1000um 0 100 ""]
+Element["" "5GSH9" "BTN?" "" 0 0 -5000um -1000um 0 100 ""]
 (
     Pad[5650um -3810um 6850um -3810um 1200um 1000um 2200um "1" "1" "square"]
     Pad[-5650um -3810um -6850um -3810um 1200um 1000um 2200um "2" "2" "square"]
