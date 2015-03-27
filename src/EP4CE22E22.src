@@ -21,7 +21,7 @@ version=20150311
 name=EP4CE22E22
 device=EP4CE22E22
 refdes=U?
-footprint=LQFP144_20
+footprint=EQFP144_20
 description=EP4CE22E22
 documentation=https://cloud.altera.com/ds/part/EP4CE22E22C6/
 author=Evgeny Ivanov
@@ -103,7 +103,6 @@ comment=generated with tragesym
 14		io	line	l		nCONFIG
 21		io	line	l		nCE
 92		io	line	l		CONF_DONE
-100		io	line	l		RESET
 			spacer	l		
 5		pwr	line	l		VCCINT
 29		pwr	line	l		VCCINT
@@ -119,6 +118,7 @@ comment=generated with tragesym
 124		pwr	line	l		VCCINT
 134		pwr	line	l		VCCINT
 138		pwr	line	l		VCCINT
+			spacer	l		
 37		pwr	line	l		VCCD_PLL1
 109		pwr	line	l		VCCD_PLL2
 1		pwr	line	l		VCCD_PLL3
@@ -133,6 +133,7 @@ comment=generated with tragesym
 			spacer	r		
 98		io	line	r		IO_98
 99		io	line	r		IO_99
+100		io	line	r		IO_100
 101		io	line	r		IO_101
 103		io	line	r		IO_103
 104		io	line	r		IO_104
@@ -167,7 +168,6 @@ comment=generated with tragesym
 94		io	line	r		MSEL0
 96		io	line	r		MSEL1
 97		io	line	r		MSEL2
-			spacer	r		
 6		io	line	r		ASDO
 8		io	line	r		nCSO
 12		io	line	r		DCLK
