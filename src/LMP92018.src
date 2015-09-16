@@ -9,7 +9,7 @@ wordswap=yes
 rotate_labels=no
 sort_labels=no
 generate_pinseq=yes
-sym_width=4000
+sym_width=3000
 pinwidthvertikal=400
 pinwidthhorizontal=400
  
@@ -18,12 +18,12 @@ pinwidthhorizontal=400
 # if you have a device with slots, you'll have to use slot= and slotdef=
 # use comment= if there are special information you want to add
 version=20130319
-name=ADRF6516
-device=ADRF6516ACPZ
+name=LMP92018
+device=LMP92018SQ
 refdes=U?
-footprint=QFN32_5_EP
-description=31 MHz, Dual Programmable Filters and Variable Gain Amplifiers
-documentation=www.analog.com/en/products/rf-microwave/variable-gain-amplifiers/all-vgas/adrf6516.html
+footprint=QFN36_6_EP
+description=LMP92018 Analog System Monitor and Controller
+documentation=http://www.ti.com/product/lmp92018
 author=Evgeny Ivanov
 dist-license=GPL
 use-license=unlimited
@@ -51,3 +51,47 @@ comment=generated with tragesym
 #-----------------------------------------------------
 #pinnr  seq     type    style   posit.  net     label
 #-----------------------------------------------------
+35		in	line	l		IN7
+34		in	line	l		IN6
+33		in	line	l		IN5
+32		in	line	l		IN4
+31		in	line	l		IN3
+30		in	line	l		IN2
+29		in	line	l		IN1
+28		in	line	l		IN0
+			spacer	l		
+36		in	line	l		REF
+			spacer	l		
+7		in	line	l		SCLK
+6		in	line	l		CSB
+8		in	line	l		DIN
+9		pwr	line	l		DOUT
+			spacer	l		
+19		out	line	l		DRBYB
+10		out	line	r		OUT3
+11		out	line	r		OUT2
+12		out	line	r		OUT1
+13		out	line	r		OUT0
+			spacer	r		
+15		io	line	r		GPIO11
+16		io	line	r		GPIO10
+17		io	line	r		GPIO9
+18		io	line	r		GPIO8
+20		io	line	r		GPIO7
+21		io	line	r		GPIO6
+22		io	line	r		GPIO5
+23		io	line	r		GPIO4
+24		io	line	r		GPIO3
+25		io	line	r		GPIO2
+26		io	line	r		GPIO1
+27		io	line	r		GPIO0
+1		pwr	line	t		VDD
+			spacer	t		
+4		pwr	line	t		VGPIO
+			spacer	t		
+5		pwr	line	t		VIO
+2		pwr	line	b		GND
+3		pwr	line	b		GND
+14		pwr	line	b		GND
+			spacer	b		
+37		pas	line	b		DAP

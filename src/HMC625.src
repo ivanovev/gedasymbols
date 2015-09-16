@@ -6,10 +6,10 @@
 # wordswap swaps labels if the pin is on the right side an looks like this:
 # "PB1 (CLK)"
 wordswap=yes
-rotate_labels=no
+rotate_labels=yes
 sort_labels=no
 generate_pinseq=yes
-sym_width=4000
+sym_width=3200
 pinwidthvertikal=400
 pinwidthhorizontal=400
  
@@ -17,13 +17,13 @@ pinwidthhorizontal=400
 # name will be printed in the top of the symbol
 # if you have a device with slots, you'll have to use slot= and slotdef=
 # use comment= if there are special information you want to add
-version=20130319
-name=ADRF6516
-device=ADRF6516ACPZ
+version=20150915
+name=HMC625
+device=HMC625LP5E
 refdes=U?
 footprint=QFN32_5_EP
-description=31 MHz, Dual Programmable Filters and Variable Gain Amplifiers
-documentation=www.analog.com/en/products/rf-microwave/variable-gain-amplifiers/all-vgas/adrf6516.html
+description=0.5 dB LSB GaAs MMIC 6-BIT DIGITAL VARIABLE GAIN AMPLIFIER, DC - 6 GHz
+documentation=https://www.hittite.com/content/documents/data_sheet/hmc625lp5.pdf
 author=Evgeny Ivanov
 dist-license=GPL
 use-license=unlimited
@@ -51,3 +51,42 @@ comment=generated with tragesym
 #-----------------------------------------------------
 #pinnr  seq     type    style   posit.  net     label
 #-----------------------------------------------------
+4		in	line	l		ATTIN
+12		out	line	l		ATTOUT
+			spacer	l		
+25		in	line	l		CLK
+27		in	line	l		LE
+26		in	line	l		SERIN
+14		out	line	l		SEROUT
+24		in	line	l		PS
+23		in	line	l		D0
+22		in	line	l		D1
+21		in	line	l		D2
+20		in	line	l		D3
+19		in	line	l		D4
+18		in	line	l		D5
+			spacer	l		
+1		in	line	r		AMPIN
+29		out	line	r		AMPOUT
+			spacer	r		
+15		in	line	r		PUP1
+16		in	line	r		PUP2
+			spacer	r		
+11		pas	line	r		NC
+			spacer	r		
+5		in	line	r		ACG1
+6		in	line	r		ACG2
+7		in	line	r		ACG3
+8		in	line	r		ACG4
+9		in	line	r		ACG5
+10		in	line	r		ACG6
+			spacer	r		
+17		pwr	line	t		Vdd
+2		pwr	line	b		GND
+3		pwr	line	b		GND
+13		pwr	line	b		GND
+28		pwr	line	b		GND
+30		pwr	line	b		GND
+31		pwr	line	b		GND
+32		pwr	line	b		GND
+33		pas	line	b		EP

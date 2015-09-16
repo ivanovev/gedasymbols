@@ -18,12 +18,12 @@ pinwidthhorizontal=400
 # if you have a device with slots, you'll have to use slot= and slotdef=
 # use comment= if there are special information you want to add
 version=20130319
-name=ADRF6516
-device=ADRF6516ACPZ
+name=ADRF6820
+device=ADRF6820ACPZ
 refdes=U?
-footprint=QFN32_5_EP
-description=31 MHz, Dual Programmable Filters and Variable Gain Amplifiers
-documentation=www.analog.com/en/products/rf-microwave/variable-gain-amplifiers/all-vgas/adrf6516.html
+footprint=QFN40_6_EP
+description=695 MHz to 2700 MHz, Quadrature Demodulator with Integrated Fractional-N PLL and VCO
+documentation=http://www.analog.com/en/products/rf-microwave/iq-modulators-demodulators/iq-demodulators-w-integrated-lo/adrf6820.html
 author=Evgeny Ivanov
 dist-license=GPL
 use-license=unlimited

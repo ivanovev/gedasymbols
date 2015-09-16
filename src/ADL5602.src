@@ -9,7 +9,7 @@ wordswap=yes
 rotate_labels=no
 sort_labels=no
 generate_pinseq=yes
-sym_width=4000
+sym_width=1400
 pinwidthvertikal=400
 pinwidthhorizontal=400
  
@@ -18,12 +18,12 @@ pinwidthhorizontal=400
 # if you have a device with slots, you'll have to use slot= and slotdef=
 # use comment= if there are special information you want to add
 version=20130319
-name=ADRF6516
-device=ADRF6516ACPZ
+name=ADL5602
+device=ADL5602ARKZ
 refdes=U?
-footprint=QFN32_5_EP
-description=31 MHz, Dual Programmable Filters and Variable Gain Amplifiers
-documentation=www.analog.com/en/products/rf-microwave/variable-gain-amplifiers/all-vgas/adrf6516.html
+footprint=SOT89
+description=50 MHz to 4.0 GHz RF/IF Gain Block
+documentation=http://www.analog.com/en/products/rf-microwave/rf-amplifiers/gain-blocks/adl5602.html
 author=Evgeny Ivanov
 dist-license=GPL
 use-license=unlimited
@@ -51,3 +51,7 @@ comment=generated with tragesym
 #-----------------------------------------------------
 #pinnr  seq     type    style   posit.  net     label
 #-----------------------------------------------------
+1		in	line	l		RFin
+2		pwr	line	b		GND
+3		out	line	r		RFout
+4		pwr	line	b		GND

@@ -9,7 +9,7 @@ wordswap=yes
 rotate_labels=no
 sort_labels=no
 generate_pinseq=yes
-sym_width=4000
+sym_width=3000
 pinwidthvertikal=400
 pinwidthhorizontal=400
  
@@ -18,12 +18,12 @@ pinwidthhorizontal=400
 # if you have a device with slots, you'll have to use slot= and slotdef=
 # use comment= if there are special information you want to add
 version=20130319
-name=ADRF6516
-device=ADRF6516ACPZ
+name=LMP92018
+device=LMP92018SQ
 refdes=U?
-footprint=QFN32_5_EP
-description=31 MHz, Dual Programmable Filters and Variable Gain Amplifiers
-documentation=www.analog.com/en/products/rf-microwave/variable-gain-amplifiers/all-vgas/adrf6516.html
+footprint=QFN36_6_EP
+description=LMP92018 Analog System Monitor and Controller
+documentation=http://www.ti.com/product/lmp92018
 author=Evgeny Ivanov
 dist-license=GPL
 use-license=unlimited

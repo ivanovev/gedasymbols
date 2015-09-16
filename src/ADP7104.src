@@ -9,7 +9,7 @@ wordswap=yes
 rotate_labels=no
 sort_labels=no
 generate_pinseq=yes
-sym_width=4000
+sym_width=1400
 pinwidthvertikal=400
 pinwidthhorizontal=400
  
@@ -17,13 +17,13 @@ pinwidthhorizontal=400
 # name will be printed in the top of the symbol
 # if you have a device with slots, you'll have to use slot= and slotdef=
 # use comment= if there are special information you want to add
-version=20130319
-name=ADRF6516
-device=ADRF6516ACPZ
+version=20150915
+name=ADP7104
+device=ADP7104ACPZ
 refdes=U?
-footprint=QFN32_5_EP
-description=31 MHz, Dual Programmable Filters and Variable Gain Amplifiers
-documentation=www.analog.com/en/products/rf-microwave/variable-gain-amplifiers/all-vgas/adrf6516.html
+footprint=LFCSP_WD8_3_EP
+description=20 V, 500 mA, Low Noise, CMOS LDO
+documentation=http://www.analog.com/en/products/power-management/linear-regulators/adp7104.html
 author=Evgeny Ivanov
 dist-license=GPL
 use-license=unlimited
@@ -51,3 +51,12 @@ comment=generated with tragesym
 #-----------------------------------------------------
 #pinnr  seq     type    style   posit.  net     label
 #-----------------------------------------------------
+8		pwr	line	l		VIN
+5		in	line	l		EN/UVLO
+2		in	line	l		SENSE/ADJ
+1		out	line	r		VOUT
+7		out	line	r		PG
+4		pas	line	r		NC
+3		pwr	line	b		GND
+6		pwr	line	b		GND
+9		pas	line	b		EPAD
