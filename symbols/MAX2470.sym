@@ -1,0 +1,91 @@
+v 20130319 1
+P 100 1200 400 1200 1 0 0
+{
+T 300 1250 5 8 1 1 0 6 1
+pinnumber=5
+T 300 1150 5 8 0 1 0 8 1
+pinseq=1
+T 450 1200 9 8 1 1 0 0 1
+pinlabel=IN
+T 450 1200 5 8 0 1 0 2 1
+pintype=in
+}
+P 100 800 400 800 1 0 0
+{
+T 300 850 5 8 1 1 0 6 1
+pinnumber=4
+T 300 750 5 8 0 1 0 8 1
+pinseq=2
+T 450 800 9 8 1 1 0 0 1
+pinlabel=HI/\_LO\_(\_IN\_)
+T 450 800 5 8 0 1 0 2 1
+pintype=in
+}
+P 2700 1200 2400 1200 1 0 0
+{
+T 2500 1250 5 8 1 1 0 0 1
+pinnumber=1
+T 2500 1150 5 8 0 1 0 2 1
+pinseq=3
+T 2350 1200 9 8 1 1 0 6 1
+pinlabel=OUT
+T 2350 1200 5 8 0 1 0 8 1
+pintype=out
+}
+P 2700 800 2500 800 1 0 0
+{
+T 2500 850 5 8 1 1 0 0 1
+pinnumber=3
+T 2500 750 5 8 0 1 0 2 1
+pinseq=4
+T 2350 800 9 8 1 1 0 6 1
+pinlabel=\_OUT\_
+T 2350 800 5 8 0 1 0 8 1
+pintype=out
+}
+V 2450 800 50 6 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+P 1400 100 1400 400 1 0 0
+{
+T 1450 300 5 8 1 1 0 2 1
+pinnumber=2
+T 1350 300 5 8 0 1 0 8 1
+pinseq=5
+T 1400 450 9 8 1 1 0 3 1
+pinlabel=GND
+T 1400 600 5 8 0 1 0 3 1
+pintype=pwr
+}
+P 1400 1900 1400 1600 1 0 0
+{
+T 1450 1700 5 8 1 1 0 0 1
+pinnumber=6
+T 1350 1700 5 8 0 1 0 6 1
+pinseq=6
+T 1400 1550 9 8 1 1 0 5 1
+pinlabel=VCC
+T 1400 1400 5 8 0 1 0 5 1
+pintype=pwr
+}
+B 400 400 2000 1200 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+T 2400 1700 8 10 1 1 0 6 1
+refdes=U?
+T 1200 900 9 10 1 0 0 0 1
+MAX2470
+T 1200 1200 5 10 0 0 0 0 1
+device=MAX2470
+T 1200 1400 5 10 0 0 0 0 1
+footprint=SOT26
+T 1200 1600 5 10 0 0 0 0 1
+author=Evgeny Ivanov
+T 1200 1800 5 10 0 0 0 0 1
+documentation=https://www.maximintegrated.com/en/products/comms/wireless-rf/MAX2470.html
+T 1200 2000 5 10 0 0 0 0 1
+description=10MHz to 500MHz VCO Buffer Amplifiers with Differential Outputs
+T 1200 2200 5 10 0 0 0 0 1
+numslots=0
+T 1200 2400 5 10 0 0 0 0 1
+dist-license=GPL
+T 1200 2600 5 10 0 0 0 0 1
+use-license=unlimited
+T 1200 2800 5 10 0 0 0 0 1
+comment=generated with tragesym

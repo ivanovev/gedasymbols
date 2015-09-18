@@ -9,7 +9,7 @@ wordswap=yes
 rotate_labels=no
 sort_labels=no
 generate_pinseq=yes
-sym_width=1400
+sym_width=4400
 pinwidthvertikal=400
 pinwidthhorizontal=400
  
@@ -17,13 +17,13 @@ pinwidthhorizontal=400
 # name will be printed in the top of the symbol
 # if you have a device with slots, you'll have to use slot= and slotdef=
 # use comment= if there are special information you want to add
-version=20150915
-name=ADP7104
-device=ADP7104ACPZ
+version=20130319
+name=ADG904
+device=ADG904BRUZ
 refdes=U?
-footprint=LFCSP_WD8_3_EP
-description=20 V, 500 mA, Low Noise, CMOS LDO
-documentation=http://www.analog.com/en/products/power-management/linear-regulators/adp7104.html
+footprint=TSSOP20
+description=Wideband 2.5 GHz, 37 dB Isolation at 1 GHz, CMOS 1.65 V to 2.75 V, 4:1 Mux/SP4T
+documentation=http://www.analog.com/en/products/switches-multiplexers/analog-switches-multiplexers/adg904.html
 author=Evgeny Ivanov
 dist-license=GPL
 use-license=unlimited
@@ -51,12 +51,3 @@ comment=generated with tragesym
 #-----------------------------------------------------
 #pinnr  seq     type    style   posit.  net     label
 #-----------------------------------------------------
-8		pwr	line	l		VIN
-5		in	line	l		EN
-4		pas	line	l		NC
-1		out	line	r		VOUT
-2		in	line	r		SENSE/ADJ
-7		out	line	r		PG
-3		pwr	line	b		GND
-6		pwr	line	b		GND
-9		pas	line	b		EPAD

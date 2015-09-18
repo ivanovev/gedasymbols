@@ -9,7 +9,7 @@ wordswap=yes
 rotate_labels=no
 sort_labels=no
 generate_pinseq=yes
-sym_width=1400
+sym_width=2000
 pinwidthvertikal=400
 pinwidthhorizontal=400
  
@@ -17,13 +17,13 @@ pinwidthhorizontal=400
 # name will be printed in the top of the symbol
 # if you have a device with slots, you'll have to use slot= and slotdef=
 # use comment= if there are special information you want to add
-version=20150915
-name=ADP7104
-device=ADP7104ACPZ
+version=20130319
+name=GP2S+
+device=GP2S+
 refdes=U?
-footprint=LFCSP_WD8_3_EP
-description=20 V, 500 mA, Low Noise, CMOS LDO
-documentation=http://www.analog.com/en/products/power-management/linear-regulators/adp7104.html
+footprint=QFN12_3_EP
+description=Power Splitter/Combiner
+documentation=www.minicircuits.com/pdfs/GP2S+.pdf
 author=Evgeny Ivanov
 dist-license=GPL
 use-license=unlimited
@@ -51,12 +51,16 @@ comment=generated with tragesym
 #-----------------------------------------------------
 #pinnr  seq     type    style   posit.  net     label
 #-----------------------------------------------------
-8		pwr	line	l		VIN
-5		in	line	l		EN
-4		pas	line	l		NC
-1		out	line	r		VOUT
-2		in	line	r		SENSE/ADJ
-7		out	line	r		PG
-3		pwr	line	b		GND
-6		pwr	line	b		GND
-9		pas	line	b		EPAD
+3		pwr	line	l		GND
+2		in	line	l		PORT_S
+1		pwr	line	l		GND
+4		pwr	line	t		GND
+5		pwr	line	t		GND
+6		pwr	line	t		GND
+7		out	line	r		PORT_1
+8		pwr	line	r		GND
+9		out	line	r		PORT_2
+13		pwr	line	b		EP
+12		pwr	line	b		GND
+11		pwr	line	b		GND
+10		pwr	line	b		GND

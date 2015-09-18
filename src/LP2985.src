@@ -17,13 +17,13 @@ pinwidthhorizontal=400
 # name will be printed in the top of the symbol
 # if you have a device with slots, you'll have to use slot= and slotdef=
 # use comment= if there are special information you want to add
-version=20150915
-name=ADP7104
-device=ADP7104ACPZ
+version=20130319
+name=LP2985
+device=LP2985AIM5-2.5
 refdes=U?
-footprint=LFCSP_WD8_3_EP
-description=20 V, 500 mA, Low Noise, CMOS LDO
-documentation=http://www.analog.com/en/products/power-management/linear-regulators/adp7104.html
+footprint=SOT23
+description=150-mA Low-noise Low-dropout Regulator
+documentation=http://www.ti.com/lit/ds/symlink/lp2985-50.pdf
 author=Evgeny Ivanov
 dist-license=GPL
 use-license=unlimited
@@ -51,12 +51,8 @@ comment=generated with tragesym
 #-----------------------------------------------------
 #pinnr  seq     type    style   posit.  net     label
 #-----------------------------------------------------
-8		pwr	line	l		VIN
-5		in	line	l		EN
-4		pas	line	l		NC
-1		out	line	r		VOUT
-2		in	line	r		SENSE/ADJ
-7		out	line	r		PG
-3		pwr	line	b		GND
-6		pwr	line	b		GND
-9		pas	line	b		EPAD
+1		pwr	line	l		Vin
+3		in	line	l		ON/\_OFF\_
+5		out	line	r		Vout
+4		pas	line	r		BYPASS
+2		pwr	line	b		GND

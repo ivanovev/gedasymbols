@@ -9,7 +9,7 @@ wordswap=yes
 rotate_labels=no
 sort_labels=no
 generate_pinseq=yes
-sym_width=1400
+sym_width=2000
 pinwidthvertikal=400
 pinwidthhorizontal=400
  
@@ -17,13 +17,13 @@ pinwidthhorizontal=400
 # name will be printed in the top of the symbol
 # if you have a device with slots, you'll have to use slot= and slotdef=
 # use comment= if there are special information you want to add
-version=20150915
-name=ADP7104
-device=ADP7104ACPZ
+version=20130319
+name=MAX2470
+device=MAX2470
 refdes=U?
-footprint=LFCSP_WD8_3_EP
-description=20 V, 500 mA, Low Noise, CMOS LDO
-documentation=http://www.analog.com/en/products/power-management/linear-regulators/adp7104.html
+footprint=SOT26
+description=10MHz to 500MHz VCO Buffer Amplifiers with Differential Outputs
+documentation=https://www.maximintegrated.com/en/products/comms/wireless-rf/MAX2470.html
 author=Evgeny Ivanov
 dist-license=GPL
 use-license=unlimited
@@ -51,12 +51,9 @@ comment=generated with tragesym
 #-----------------------------------------------------
 #pinnr  seq     type    style   posit.  net     label
 #-----------------------------------------------------
-8		pwr	line	l		VIN
-5		in	line	l		EN
-4		pas	line	l		NC
-1		out	line	r		VOUT
-2		in	line	r		SENSE/ADJ
-7		out	line	r		PG
-3		pwr	line	b		GND
-6		pwr	line	b		GND
-9		pas	line	b		EPAD
+5		in	line	l		IN
+4		in	line	l		HI/\_LO\_(\_IN\_)
+1		out	line	r		OUT
+3		out	dot	r		\_OUT\_
+2		pwr	line	b		GND
+6		pwr	line	t		VCC
