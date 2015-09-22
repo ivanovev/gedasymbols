@@ -24,22 +24,22 @@ pintype=out
 P 100 5200 400 5200 1 0 0
 {
 T 300 5250 5 8 1 1 0 6 1
-pinnumber=25
+pinnumber=27
 T 300 5150 5 8 0 1 0 8 1
 pinseq=3
 T 450 5200 9 8 1 1 0 0 1
-pinlabel=CLK
+pinlabel=LE
 T 450 5200 5 8 0 1 0 2 1
 pintype=in
 }
 P 100 4800 400 4800 1 0 0
 {
 T 300 4850 5 8 1 1 0 6 1
-pinnumber=27
+pinnumber=25
 T 300 4750 5 8 0 1 0 8 1
 pinseq=4
 T 450 4800 9 8 1 1 0 0 1
-pinlabel=LE
+pinlabel=CLK
 T 450 4800 5 8 0 1 0 2 1
 pintype=in
 }

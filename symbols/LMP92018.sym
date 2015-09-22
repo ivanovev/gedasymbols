@@ -2,88 +2,88 @@ v 20130319 1
 P 100 7200 400 7200 1 0 0
 {
 T 300 7250 5 8 1 1 0 6 1
-pinnumber=35
+pinnumber=28
 T 300 7150 5 8 0 1 0 8 1
 pinseq=1
 T 450 7200 9 8 1 1 0 0 1
-pinlabel=IN7
+pinlabel=IN0
 T 450 7200 5 8 0 1 0 2 1
 pintype=in
 }
 P 100 6800 400 6800 1 0 0
 {
 T 300 6850 5 8 1 1 0 6 1
-pinnumber=34
+pinnumber=29
 T 300 6750 5 8 0 1 0 8 1
 pinseq=2
 T 450 6800 9 8 1 1 0 0 1
-pinlabel=IN6
+pinlabel=IN1
 T 450 6800 5 8 0 1 0 2 1
 pintype=in
 }
 P 100 6400 400 6400 1 0 0
 {
 T 300 6450 5 8 1 1 0 6 1
-pinnumber=33
+pinnumber=30
 T 300 6350 5 8 0 1 0 8 1
 pinseq=3
 T 450 6400 9 8 1 1 0 0 1
-pinlabel=IN5
+pinlabel=IN2
 T 450 6400 5 8 0 1 0 2 1
 pintype=in
 }
 P 100 6000 400 6000 1 0 0
 {
 T 300 6050 5 8 1 1 0 6 1
-pinnumber=32
+pinnumber=31
 T 300 5950 5 8 0 1 0 8 1
 pinseq=4
 T 450 6000 9 8 1 1 0 0 1
-pinlabel=IN4
+pinlabel=IN3
 T 450 6000 5 8 0 1 0 2 1
 pintype=in
 }
 P 100 5600 400 5600 1 0 0
 {
 T 300 5650 5 8 1 1 0 6 1
-pinnumber=31
+pinnumber=32
 T 300 5550 5 8 0 1 0 8 1
 pinseq=5
 T 450 5600 9 8 1 1 0 0 1
-pinlabel=IN3
+pinlabel=IN4
 T 450 5600 5 8 0 1 0 2 1
 pintype=in
 }
 P 100 5200 400 5200 1 0 0
 {
 T 300 5250 5 8 1 1 0 6 1
-pinnumber=30
+pinnumber=33
 T 300 5150 5 8 0 1 0 8 1
 pinseq=6
 T 450 5200 9 8 1 1 0 0 1
-pinlabel=IN2
+pinlabel=IN5
 T 450 5200 5 8 0 1 0 2 1
 pintype=in
 }
 P 100 4800 400 4800 1 0 0
 {
 T 300 4850 5 8 1 1 0 6 1
-pinnumber=29
+pinnumber=34
 T 300 4750 5 8 0 1 0 8 1
 pinseq=7
 T 450 4800 9 8 1 1 0 0 1
-pinlabel=IN1
+pinlabel=IN6
 T 450 4800 5 8 0 1 0 2 1
 pintype=in
 }
 P 100 4400 400 4400 1 0 0
 {
 T 300 4450 5 8 1 1 0 6 1
-pinnumber=28
+pinnumber=35
 T 300 4350 5 8 0 1 0 8 1
 pinseq=8
 T 450 4400 9 8 1 1 0 0 1
-pinlabel=IN0
+pinlabel=IN7
 T 450 4400 5 8 0 1 0 2 1
 pintype=in
 }
@@ -149,51 +149,51 @@ pinnumber=19
 T 300 750 5 8 0 1 0 8 1
 pinseq=14
 T 450 800 9 8 1 1 0 0 1
-pinlabel=DRBYB
+pinlabel=DRDYB
 T 450 800 5 8 0 1 0 2 1
 pintype=out
 }
 P 3700 7200 3400 7200 1 0 0
 {
 T 3500 7250 5 8 1 1 0 0 1
-pinnumber=10
+pinnumber=13
 T 3500 7150 5 8 0 1 0 2 1
 pinseq=15
 T 3350 7200 9 8 1 1 0 6 1
-pinlabel=OUT3
+pinlabel=OUT0
 T 3350 7200 5 8 0 1 0 8 1
 pintype=out
 }
 P 3700 6800 3400 6800 1 0 0
 {
 T 3500 6850 5 8 1 1 0 0 1
-pinnumber=11
+pinnumber=12
 T 3500 6750 5 8 0 1 0 2 1
 pinseq=16
 T 3350 6800 9 8 1 1 0 6 1
-pinlabel=OUT2
+pinlabel=OUT1
 T 3350 6800 5 8 0 1 0 8 1
 pintype=out
 }
 P 3700 6400 3400 6400 1 0 0
 {
 T 3500 6450 5 8 1 1 0 0 1
-pinnumber=12
+pinnumber=11
 T 3500 6350 5 8 0 1 0 2 1
 pinseq=17
 T 3350 6400 9 8 1 1 0 6 1
-pinlabel=OUT1
+pinlabel=OUT2
 T 3350 6400 5 8 0 1 0 8 1
 pintype=out
 }
 P 3700 6000 3400 6000 1 0 0
 {
 T 3500 6050 5 8 1 1 0 0 1
-pinnumber=13
+pinnumber=10
 T 3500 5950 5 8 0 1 0 2 1
 pinseq=18
 T 3350 6000 9 8 1 1 0 6 1
-pinlabel=OUT0
+pinlabel=OUT3
 T 3350 6000 5 8 0 1 0 8 1
 pintype=out
 }
