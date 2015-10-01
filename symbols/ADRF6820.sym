@@ -134,44 +134,44 @@ pintype=in
 P 4700 7200 4400 7200 1 0 0
 {
 T 4500 7250 5 8 1 1 0 0 1
-pinnumber=4
+pinnumber=7
 T 4500 7150 5 8 0 1 0 2 1
 pinseq=13
 T 4350 7200 9 8 1 1 0 6 1
-pinlabel=I+
+pinlabel=Q+
 T 4350 7200 5 8 0 1 0 8 1
 pintype=out
 }
 P 4700 6800 4400 6800 1 0 0
 {
 T 4500 6850 5 8 1 1 0 0 1
-pinnumber=5
+pinnumber=6
 T 4500 6750 5 8 0 1 0 2 1
 pinseq=14
 T 4350 6800 9 8 1 1 0 6 1
-pinlabel=I-
+pinlabel=Q-
 T 4350 6800 5 8 0 1 0 8 1
 pintype=out
 }
 P 4700 6000 4400 6000 1 0 0
 {
 T 4500 6050 5 8 1 1 0 0 1
-pinnumber=6
+pinnumber=5
 T 4500 5950 5 8 0 1 0 2 1
 pinseq=15
 T 4350 6000 9 8 1 1 0 6 1
-pinlabel=Q-
+pinlabel=I-
 T 4350 6000 5 8 0 1 0 8 1
 pintype=out
 }
 P 4700 5600 4400 5600 1 0 0
 {
 T 4500 5650 5 8 1 1 0 0 1
-pinnumber=7
+pinnumber=4
 T 4500 5550 5 8 0 1 0 2 1
 pinseq=16
 T 4350 5600 9 8 1 1 0 6 1
-pinlabel=Q+
+pinlabel=I+
 T 4350 5600 5 8 0 1 0 8 1
 pintype=out
 }
