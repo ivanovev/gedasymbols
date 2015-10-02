@@ -51,11 +51,11 @@ comment=generated with tragesym
 #-----------------------------------------------------
 #pinnr  seq     type    style   posit.  net     label
 #-----------------------------------------------------
-31		pas	line	l		INP1
 30		pas	line	l		INM1
+31		pas	line	l		INP1
 			spacer	l		
-11		pas	line	l		INM2
 10		pas	line	l		INP2
+11		pas	line	l		INM2
 			spacer	l		
 27		in	line	l		VICM
 			spacer	l		
