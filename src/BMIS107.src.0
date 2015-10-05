@@ -6,7 +6,7 @@
 # wordswap swaps labels if the pin is on the right side an looks like this:
 # "PB1 (CLK)"
 wordswap=yes
-rotate_labels=yes
+rotate_labels=no
 sort_labels=no
 generate_pinseq=yes
 sym_width=1400
@@ -17,13 +17,13 @@ pinwidthhorizontal=400
 # name will be printed in the top of the symbol
 # if you have a device with slots, you'll have to use slot= and slotdef=
 # use comment= if there are special information you want to add
-version=20150915
-name=ABA54563
-device=ABA-54563-BLKG
+version=20130614
+name=BMIS107
+device=BMIS107
 refdes=U?
-footprint=SOT363
-description=3.4 GHz Broadband Silicon RFIC Amplifier
-documentation=http://www.avagotech.com/docs/AV02-1787EN
+footprint=BMIS107
+description=BMI-S-107 shield
+documentation=http://www.lairdtech.com/brandworld/library/Board%20Level%20Shields%20Catalog%20Download.pdf
 author=Evgeny Ivanov
 dist-license=GPL
 use-license=unlimited
@@ -51,10 +51,3 @@ comment=generated with tragesym
 #-----------------------------------------------------
 #pinnr  seq     type    style   posit.  net     label
 #-----------------------------------------------------
-3		in	line	l		Input
-			spacer	l		
-6		out	line	r		Ouput
-4		pwr	line	t		VCC
-2		pwr	line	b		GND1
-1		pwr	line	b		GND2
-5		pwr	line	b		GND3

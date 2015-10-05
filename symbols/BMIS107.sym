@@ -1,0 +1,24 @@
+v 20130614 1
+B 400 100 1400 400 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+T 1800 600 8 10 1 1 0 6 1
+refdes=U?
+T 400 600 9 10 1 0 0 0 1
+BMIS107
+T 400 800 5 10 0 0 0 0 1
+device=BMIS107
+T 400 1000 5 10 0 0 0 0 1
+footprint=BMIS107
+T 400 1200 5 10 0 0 0 0 1
+author=Evgeny Ivanov
+T 400 1400 5 10 0 0 0 0 1
+documentation=http://www.lairdtech.com/brandworld/library/Board%20Level%20Shields%20Catalog%20Download.pdf
+T 400 1600 5 10 0 0 0 0 1
+description=BMI-S-107 shield
+T 400 1800 5 10 0 0 0 0 1
+numslots=0
+T 400 2000 5 10 0 0 0 0 1
+dist-license=GPL
+T 400 2200 5 10 0 0 0 0 1
+use-license=unlimited
+T 400 2400 5 10 0 0 0 0 1
+comment=generated with tragesym
