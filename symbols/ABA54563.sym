@@ -73,7 +73,7 @@ ABA54563
 T 900 1200 5 10 0 0 0 0 1
 device=ABA-54563-BLKG
 T 900 1400 5 10 0 0 0 0 1
-footprint=SOT363
+footprint=SC70_6
 T 900 1600 5 10 0 0 0 0 1
 author=Evgeny Ivanov
 T 900 1800 5 10 0 0 0 0 1
