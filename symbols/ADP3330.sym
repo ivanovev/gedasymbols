@@ -73,7 +73,7 @@ refdes=U?
 T 400 1800 9 10 1 0 0 0 1
 ADP3330
 T 400 2000 5 10 0 0 0 0 1
-device=ADP3330ARTZ
+device=ADP3330
 T 400 2200 5 10 0 0 0 0 1
 footprint=SOT26
 T 400 2400 5 10 0 0 0 0 1
@@ -89,4 +89,4 @@ dist-license=GPL
 T 400 3400 5 10 0 0 0 0 1
 use-license=unlimited
 T 400 3600 5 10 0 0 0 0 1
-comment=generated with tragesym
+comment=ADP3330ARTZ

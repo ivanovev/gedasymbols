@@ -94,7 +94,7 @@ refdes=U?
 T 400 2200 9 10 1 0 0 0 1
 ADP3335
 T 400 2400 5 10 0 0 0 0 1
-device=ADP3335ARMZ
+device=ADP3335
 T 400 2600 5 10 0 0 0 0 1
 footprint=MSOP8
 T 400 2800 5 10 0 0 0 0 1
@@ -110,4 +110,4 @@ dist-license=GPL
 T 400 3800 5 10 0 0 0 0 1
 use-license=unlimited
 T 400 4000 5 10 0 0 0 0 1
-comment=generated with tragesym
+comment=ADP3335ARMZ

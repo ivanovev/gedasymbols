@@ -5,7 +5,7 @@ refdes=U?
 T 400 600 9 10 1 0 0 0 1
 BMIS107
 T 400 800 5 10 0 0 0 0 1
-device=BMIS107
+device=SHIELD
 T 400 1000 5 10 0 0 0 0 1
 footprint=BMIS107
 T 400 1200 5 10 0 0 0 0 1

@@ -126,7 +126,7 @@ refdes=U?
 T 400 2500 9 10 1 0 0 0 1
 TPS61080
 T 400 2700 5 10 0 0 0 0 1
-device=TPS61080DRC
+device=TPS61080
 T 400 2900 5 10 0 0 0 0 1
 footprint=QFN10_3_EP
 T 400 3100 5 10 0 0 0 0 1
@@ -142,4 +142,4 @@ dist-license=GPL
 T 400 4100 5 10 0 0 0 0 1
 use-license=unlimited
 T 400 4300 5 10 0 0 0 0 1
-comment=generated with tragesym
+comment=TPS61080DRC

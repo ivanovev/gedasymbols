@@ -104,7 +104,7 @@ refdes=U?
 T 400 2100 9 10 1 0 0 0 1
 ADP7104
 T 400 2300 5 10 0 0 0 0 1
-device=ADP7104ACPZ
+device=ADP7104
 T 400 2500 5 10 0 0 0 0 1
 footprint=LFCSP_WD8_3_EP
 T 400 2700 5 10 0 0 0 0 1
@@ -120,4 +120,4 @@ dist-license=GPL
 T 400 3700 5 10 0 0 0 0 1
 use-license=unlimited
 T 400 3900 5 10 0 0 0 0 1
-comment=generated with tragesym
+comment=ADP7104ACPZ

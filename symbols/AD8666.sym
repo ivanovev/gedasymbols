@@ -93,9 +93,9 @@ refdes=U?
 T 400 2200 9 10 1 0 0 0 1
 AD8666
 T 400 2400 5 10 0 0 0 0 1
-device=AD8666ARMZ
+device=AD8666
 T 400 2600 5 10 0 0 0 0 1
-footprint=MSOP8
+footprint=S08
 T 400 2800 5 10 0 0 0 0 1
 author=Evgeny Ivanov
 T 400 3000 5 10 0 0 0 0 1
@@ -109,4 +109,4 @@ dist-license=GPL
 T 400 3800 5 10 0 0 0 0 1
 use-license=unlimited
 T 400 4000 5 10 0 0 0 0 1
-comment=generated with tragesym
+comment=AD8666ARZ

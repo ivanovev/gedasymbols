@@ -71,9 +71,9 @@ refdes=U?
 T 400 1700 9 10 1 0 0 0 1
 BNX016
 T 400 1900 5 10 0 0 0 0 1
-device=BNX016
+device=FILTER
 T 400 2100 5 10 0 0 0 0 1
-footprint=BNX016
+footprint=BNX016_Murata
 T 400 2300 5 10 0 0 0 0 1
 author=Evgeny Ivanov
 T 400 2500 5 10 0 0 0 0 1

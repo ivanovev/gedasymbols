@@ -19,7 +19,7 @@ pinwidthhorizontal=400
 # use comment= if there are special information you want to add
 version=20130317
 name=TPS61080
-device=TPS61080DRC
+device=TPS61080
 refdes=U?
 footprint=QFN10_3_EP
 description=DC/DC boost converter
@@ -33,7 +33,7 @@ numslots=0
 #slotdef=2:
 #slotdef=3:
 #slotdef=4:
-comment=generated with tragesym
+comment=TPS61080DRC
 #comment=
 #comment=
  

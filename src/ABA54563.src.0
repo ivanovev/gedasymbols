@@ -19,7 +19,7 @@ pinwidthhorizontal=400
 # use comment= if there are special information you want to add
 version=20150915
 name=ABA54563
-device=ABA-54563-BLKG
+device=ABA54563
 refdes=U?
 footprint=SC70_6
 description=3.4 GHz Broadband Silicon RFIC Amplifier
@@ -33,7 +33,7 @@ numslots=0
 #slotdef=2:
 #slotdef=3:
 #slotdef=4:
-comment=generated with tragesym
+comment=ABA-54563-BLKG
 #comment=
 #comment=
  

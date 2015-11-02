@@ -368,7 +368,7 @@ refdes=U?
 T 1800 3500 9 10 1 0 0 0 1
 HMC890
 T 1800 3800 5 10 0 0 0 0 1
-device=HMC890LP5E
+device=HMC890
 T 1800 4000 5 10 0 0 0 0 1
 footprint=QFN32_5_EP
 T 1800 4200 5 10 0 0 0 0 1
@@ -384,4 +384,4 @@ dist-license=GPL
 T 1800 5200 5 10 0 0 0 0 1
 use-license=unlimited
 T 1800 5400 5 10 0 0 0 0 1
-comment=generated with tragesym
+comment=HMC890LP5E

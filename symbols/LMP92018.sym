@@ -412,7 +412,7 @@ refdes=U?
 T 1700 3900 9 10 1 0 0 0 1
 LMP92018
 T 1700 4200 5 10 0 0 0 0 1
-device=LMP92018SQ
+device=LMP92018
 T 1700 4400 5 10 0 0 0 0 1
 footprint=QFN36_6_EP
 T 1700 4600 5 10 0 0 0 0 1
@@ -428,4 +428,4 @@ dist-license=GPL
 T 1700 5600 5 10 0 0 0 0 1
 use-license=unlimited
 T 1700 5800 5 10 0 0 0 0 1
-comment=generated with tragesym
+comment=LMP92018SQ

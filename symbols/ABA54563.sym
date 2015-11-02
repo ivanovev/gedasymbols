@@ -71,7 +71,7 @@ refdes=U?
 T 900 900 9 10 1 0 0 0 1
 ABA54563
 T 900 1200 5 10 0 0 0 0 1
-device=ABA-54563-BLKG
+device=ABA54563
 T 900 1400 5 10 0 0 0 0 1
 footprint=SC70_6
 T 900 1600 5 10 0 0 0 0 1
@@ -87,4 +87,4 @@ dist-license=GPL
 T 900 2600 5 10 0 0 0 0 1
 use-license=unlimited
 T 900 2800 5 10 0 0 0 0 1
-comment=generated with tragesym
+comment=ABA-54563-BLKG

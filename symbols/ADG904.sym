@@ -226,7 +226,7 @@ refdes=U?
 T 2400 1700 9 10 1 0 0 0 1
 ADG904
 T 2400 2000 5 10 0 0 0 0 1
-device=ADG904BRUZ
+device=ADG904
 T 2400 2200 5 10 0 0 0 0 1
 footprint=TSSOP20
 T 2400 2400 5 10 0 0 0 0 1
@@ -242,4 +242,4 @@ dist-license=GPL
 T 2400 3400 5 10 0 0 0 0 1
 use-license=unlimited
 T 2400 3600 5 10 0 0 0 0 1
-comment=generated with tragesym
+comment=ADG904BRUZ
