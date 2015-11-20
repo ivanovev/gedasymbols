@@ -1,0 +1,68 @@
+v 20151120 1
+P 100 1200 400 1200 1 0 0
+{
+T 300 1250 5 8 1 1 0 6 1
+pinnumber=3
+T 300 1150 5 8 0 1 0 8 1
+pinseq=1
+T 450 1200 9 8 1 1 0 0 1
+pinlabel=INPUT
+T 450 1200 5 8 0 1 0 2 1
+pintype=in
+}
+P 2700 1200 2400 1200 1 0 0
+{
+T 2500 1250 5 8 1 1 0 0 1
+pinnumber=4
+T 2500 1150 5 8 0 1 0 2 1
+pinseq=2
+T 2350 1200 9 8 1 1 0 6 1
+pinlabel=OUTPUT
+T 2350 1200 5 8 0 1 0 8 1
+pintype=out
+}
+P 2700 800 2400 800 1 0 0
+{
+T 2500 850 5 8 1 1 0 0 1
+pinnumber=1
+T 2500 750 5 8 0 1 0 2 1
+pinseq=3
+T 2350 800 9 8 1 1 0 6 1
+pinlabel=COUPLED
+T 2350 800 5 8 0 1 0 8 1
+pintype=out
+}
+P 1400 100 1400 400 1 0 0
+{
+T 1450 300 5 8 1 1 0 2 1
+pinnumber=2
+T 1350 300 5 8 0 1 0 8 1
+pinseq=4
+T 1400 450 9 8 1 1 0 3 1
+pinlabel=GROUND
+T 1400 600 5 8 0 1 0 3 1
+pintype=pas
+}
+B 400 400 2000 1200 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+T 2400 1700 8 10 1 1 0 6 1
+refdes=U?
+T 400 1700 9 10 1 0 0 0 1
+DBTC-12-4L+
+T 400 1900 5 10 0 0 0 0 1
+device=DBTC-12-4L+
+T 400 2100 5 10 0 0 0 0 1
+footprint=DBTC-12-4L+
+T 400 2300 5 10 0 0 0 0 1
+author=Evgeny Ivanov
+T 400 2500 5 10 0 0 0 0 1
+documentation=www.minicircuits.com/pdfs/DBTC-12-4+.pdf
+T 400 2700 5 10 0 0 0 0 1
+description=Directional Coupler
+T 400 2900 5 10 0 0 0 0 1
+numslots=0
+T 400 3100 5 10 0 0 0 0 1
+dist-license=GPL
+T 400 3300 5 10 0 0 0 0 1
+use-license=unlimited
+T 400 3500 5 10 0 0 0 0 1
+comment=generated with tragesym

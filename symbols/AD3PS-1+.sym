@@ -1,0 +1,112 @@
+v 20151120 1
+P 100 1600 400 1600 1 0 0
+{
+T 300 1650 5 8 1 1 0 6 1
+pinnumber=8
+T 300 1550 5 8 0 1 0 8 1
+pinseq=1
+T 450 1600 9 8 1 1 0 0 1
+pinlabel=P1
+T 450 1600 5 8 0 1 0 2 1
+pintype=in
+}
+P 100 1200 400 1200 1 0 0
+{
+T 300 1250 5 8 1 1 0 6 1
+pinnumber=5
+T 300 1150 5 8 0 1 0 8 1
+pinseq=2
+T 450 1200 9 8 1 1 0 0 1
+pinlabel=P2
+T 450 1200 5 8 0 1 0 2 1
+pintype=in
+}
+P 100 800 400 800 1 0 0
+{
+T 300 850 5 8 1 1 0 6 1
+pinnumber=4
+T 300 750 5 8 0 1 0 8 1
+pinseq=3
+T 450 800 9 8 1 1 0 0 1
+pinlabel=P3
+T 450 800 5 8 0 1 0 2 1
+pintype=in
+}
+P 2700 1200 2400 1200 1 0 0
+{
+T 2500 1250 5 8 1 1 0 0 1
+pinnumber=1
+T 2500 1150 5 8 0 1 0 2 1
+pinseq=4
+T 2350 1200 9 8 1 1 0 6 1
+pinlabel=SUM
+T 2350 1200 5 8 0 1 0 8 1
+pintype=out
+}
+P 800 100 800 400 1 0 0
+{
+T 850 300 5 8 1 1 0 2 1
+pinnumber=2
+T 750 300 5 8 0 1 0 8 1
+pinseq=5
+T 800 450 9 8 1 1 0 3 1
+pinlabel=GND
+T 800 600 5 8 0 1 0 3 1
+pintype=pas
+}
+P 1200 100 1200 400 1 0 0
+{
+T 1250 300 5 8 1 1 0 2 1
+pinnumber=3
+T 1150 300 5 8 0 1 0 8 1
+pinseq=6
+T 1200 450 9 8 1 1 0 3 1
+pinlabel=GND
+T 1200 600 5 8 0 1 0 3 1
+pintype=pas
+}
+P 1600 100 1600 400 1 0 0
+{
+T 1650 300 5 8 1 1 0 2 1
+pinnumber=6
+T 1550 300 5 8 0 1 0 8 1
+pinseq=7
+T 1600 450 9 8 1 1 0 3 1
+pinlabel=GND
+T 1600 600 5 8 0 1 0 3 1
+pintype=pas
+}
+P 2000 100 2000 400 1 0 0
+{
+T 2050 300 5 8 1 1 0 2 1
+pinnumber=7
+T 1950 300 5 8 0 1 0 8 1
+pinseq=8
+T 2000 450 9 8 1 1 0 3 1
+pinlabel=GND
+T 2000 600 5 8 0 1 0 3 1
+pintype=pas
+}
+B 400 400 2000 1600 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+T 2400 2100 8 10 1 1 0 6 1
+refdes=U?
+T 400 2100 9 10 1 0 0 0 1
+AD3PS-1+
+T 400 2300 5 10 0 0 0 0 1
+device=AD3PS-1+
+T 400 2500 5 10 0 0 0 0 1
+footprint=AD3PS-1+
+T 400 2700 5 10 0 0 0 0 1
+author=Evgeny Ivanov
+T 400 2900 5 10 0 0 0 0 1
+documentation=www.minicircuits.com/pdfs/AD3PS-1+.pdf
+T 400 3100 5 10 0 0 0 0 1
+description=Power Splitter/Combiner
+T 400 3300 5 10 0 0 0 0 1
+numslots=0
+T 400 3500 5 10 0 0 0 0 1
+dist-license=GPL
+T 400 3700 5 10 0 0 0 0 1
+use-license=unlimited
+T 400 3900 5 10 0 0 0 0 1
+comment=generated with tragesym

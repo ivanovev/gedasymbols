@@ -15,6 +15,6 @@ refdes=J?
 L 125 200 75 250 3 0 0 0 -1 -1
 L 125 200 75 150 3 0 0 0 -1 -1
 T -9 495 8 10 0 0 0 0 1
-footprint=IPX
+footprint=SMA
 T -9 695 8 10 0 0 0 0 1
 device=CONNECTOR
