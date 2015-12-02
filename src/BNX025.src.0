@@ -18,12 +18,12 @@ pinwidthhorizontal=400
 # if you have a device with slots, you'll have to use slot= and slotdef=
 # use comment= if there are special information you want to add
 version=20130525
-name=BNX016
+name=BNX025
 device=FILTER
 refdes=U?
-footprint=BNX016
+footprint=BNX025
 description=EMI Suppression Filter
-documentation=www.murata.com/products/catalog/pdf/c31e.pdf
+documentation=http://search.murata.co.jp/Ceramy/image/img/PDF/CHN/L0132S0198BNX02.pdf
 author=Evgeny Ivanov
 dist-license=GPL
 use-license=unlimited

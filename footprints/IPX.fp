@@ -3,7 +3,7 @@
 # use-license: unlimited
 
 # IPX RF connector footprint
-Element["" "" "IPX?" "" 0 0 -500um -800um 0 100 ""]
+Element["" "" "J?" "" 0 0 -500um -800um 0 100 ""]
 (
 	Pad[1525um 0 1525um 0 1050um 1000um 1550um "" "1" "square"]
 	Pad[-575um -1475um 575um -1475um 1050um 1000um 1550um "" "2" "square"]
