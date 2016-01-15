@@ -9,7 +9,7 @@ wordswap=yes
 rotate_labels=no
 sort_labels=no
 generate_pinseq=yes
-sym_width=1400
+sym_width=2000
 pinwidthvertikal=400
 pinwidthhorizontal=400
  
@@ -17,13 +17,13 @@ pinwidthhorizontal=400
 # name will be printed in the top of the symbol
 # if you have a device with slots, you'll have to use slot= and slotdef=
 # use comment= if there are special information you want to add
-version=20130614
-name=BMIS107
-device=SHIELD
+version=20130319
+name=DAT-31R5-SP
+device=DAT-31R5-SP
 refdes=U?
-footprint=BMIS107
-description=BMI-S-107 shield
-documentation=http://www.lairdtech.com/brandworld/library/Board%20Level%20Shields%20Catalog%20Download.pdf
+footprint=QFN12_4_EP
+description=Digital Step Attenuator
+documentation=www.minicircuits.com/pdfs/DAT-31R5-SP+.pdf
 author=Evgeny Ivanov
 dist-license=GPL
 use-license=unlimited
