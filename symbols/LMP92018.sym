@@ -414,7 +414,7 @@ LMP92018
 T 1700 4200 5 10 0 0 0 0 1
 device=LMP92018
 T 1700 4400 5 10 0 0 0 0 1
-footprint=QFN36_6_EP
+footprint=LMP92018
 T 1700 4600 5 10 0 0 0 0 1
 author=Evgeny Ivanov
 T 1700 4800 5 10 0 0 0 0 1

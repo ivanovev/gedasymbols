@@ -150,7 +150,7 @@ RFSW6042
 T 1400 1600 5 10 0 0 0 0 1
 device=RFSW6042
 T 1400 1800 5 10 0 0 0 0 1
-footprint=QFN12_2_EP
+footprint=RFSW6042
 T 1400 2000 5 10 0 0 0 0 1
 author=Evgeny Ivanov
 T 1400 2200 5 10 0 0 0 0 1
