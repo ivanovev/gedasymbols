@@ -42,7 +42,7 @@ Element["" "HITTITE_32_5_EP" "U?" "" 0 0 -500um -500um 0 100 ""]
 	Pad[-1250um -2630um -1250um -2225um 254um 246um 500um "31" "31"  "square"]
 	Pad[-1750um -2630um -1750um -2225um 254um 246um 500um "32" "32"  "square"]
 # Exposed paddle
-	Pad[0 0 0 0 3800um 100um 3900um "37" "37" "square"]
+	Pad[0 0 0 0 3800um 100um 3900um "33" "33" "square"]
 # Silk screen around package
     ElementLine[-3000um -3000um  3000um -3000um 200um]
     ElementLine[ 3000um -3000um  3000um  3000um 200um]
